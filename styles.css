@@ -1,0 +1,75 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: radial-gradient(circle, #00FF00, #00FF7F); /* Green to Lime gradient */
+    color: #333;
+}
+
+/* Header Styles */
+header {
+    background: rgba(0, 123, 255, 0.8); /* Slightly transparent header */
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Logo Styles */
+.logo {
+    width: 150px; /* Adjust the size as needed */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Center the logo */
+    margin: 0 auto; /* Center align */
+}
+
+/* Navigation Styles */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Hero Section Styles */
+.hero {
+    background: rgba(255, 255, 255, 0.7); /* Slightly transparent background for hero section */
+    height: 300px;
+    color: #333;
+    text-align: center;
+    padding: 50px 0;
+    border-radius: 15px; /* Rounded corners for the hero section */
+}
+
+/* Call-to-Action Button Styles */
+.cta {
+    display: inline-block;
+    background: #FF5733; /* Call-to-action button color */
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Intro Section Styles */
+.intro {
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.9); /* Slightly transparent background for intro section */
+    margin: 20px 0;
+    border-radius: 5px;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: rgba(0, 123, 255, 0.8); /* Slightly transparent footer */
+    color: #fff
